@@ -2,4 +2,65 @@ body{
     background-color:dimgray;
     font-family: "Arial Narrow";
     font-size: 14px;
+    width: 100%;
+    min-width: 50%;
+    max-width: 100%;
+}
+section{
+    width: 50%;
+    min-width: 50%;
+    height: 270px;
+    border: 3px solid white;
+    margin:0 auto;
+    margin-top:10%;
+    margin-bottom: 10%;
+    background-color: cornflowerblue;
+    box-shadow:14px 12px 5px black;
+}
+section form{
+    background-color: crimson;
+    width: 80%;
+    min-width:50%;
+    height: 200px;
+    border:10px solid black;
+    margin: 0 auto;
+    margin-top:5%;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+    white-space: pre-line;
+    box-shadow:4px 3px 2px white;
+}
+
+#v_user_css{
+    display: inline-block;
+    width: 95%;
+    height: 30px;
+    font-size: 1.5em; 
+    margin-left:1.5%;
+    text-align: center;
+}
+#v_pass_css{
+    display: inline-block;
+    width: 95%;
+    height: 30px;
+    font-size: 1.5em; 
+    margin-left:1.5%;
+    text-align: center;
+}
+#btne{
+    width: 98%;
+    font-size:1.5em;
+    margin-left:1%;
+}
+#btne:hover{
+    background-color: #3f9039;
+}
+footer{
+    white-space: pre-wrap;
+    font-size: 10px;
+    color:white;
+    text-align: center;
 }

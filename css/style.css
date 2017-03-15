@@ -6,10 +6,17 @@ body{
     min-width: 50%;
     max-width: 100%;
 }
+.container_main{
+    width: 99%;
+    min-width: 50%;
+    height: auto;
+    border: 2px solid white;
+    
+}
 section{
     width: 50%;
     min-width: 50%;
-    height: 270px;
+    height: 290px;
     border: 3px solid white;
     margin:0 auto;
     margin-top:10%;
@@ -41,6 +48,8 @@ section form{
     font-size: 1.5em; 
     margin-left:1.5%;
     text-align: center;
+    background-image:url("../img/user.png");
+    background-repeat: no-repeat;
 }
 #v_pass_css{
     display: inline-block;
@@ -49,14 +58,23 @@ section form{
     font-size: 1.5em; 
     margin-left:1.5%;
     text-align: center;
+    background-image:url("../img/pass.png");
+    background-repeat: no-repeat;
 }
+
 #btne{
     width: 98%;
-    font-size:1.5em;
+    font-size:18px;
     margin-left:1%;
+    border:2px solid black;
+    box-shadow: 8px 4px 8px solid black;
 }
 #btne:hover{
     background-color: #3f9039;
+    color:white;
+}
+#btne:active{
+    background-color: #343611;
 }
 footer{
     white-space: pre-wrap;

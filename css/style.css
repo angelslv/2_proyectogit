@@ -5,30 +5,40 @@ body{
     width: 100%;
     min-width: 50%;
     max-width: 100%;
+    background-image:url("../img/fondo1.png");
+    background-repeat: no-repeat;
 }
-.container_main{
-    width: 99%;
+
+/*.container_main{
+    width: 60%;
     min-width: 50%;
     height: auto;
     border: 2px solid white;
-    
+    margin: 0 auto;
+    margin-top: 5%;
 }
+.container_main:hover{
+    background-color: lavenderblush;
+    transition:0.8s linear all;
+    
+}*/
 section{
     width: 50%;
     min-width: 50%;
-    height: 290px;
+    height: 330px;
     border: 3px solid white;
     margin:0 auto;
     margin-top:10%;
     margin-bottom: 10%;
     background-color: cornflowerblue;
     box-shadow:14px 12px 5px black;
+    border-radius:4px;
 }
 section form{
     background-color: crimson;
     width: 80%;
     min-width:50%;
-    height: 200px;
+    height: 240px;
     border:10px solid black;
     margin: 0 auto;
     margin-top:5%;
@@ -48,17 +58,17 @@ section form{
     font-size: 1.5em; 
     margin-left:1.5%;
     text-align: center;
-    background-image:url("../img/user.png");
+    background-image: url('../img/user.png');
     background-repeat: no-repeat;
 }
 #v_pass_css{
-    display: inline-block;
+    
     width: 95%;
     height: 30px;
     font-size: 1.5em; 
     margin-left:1.5%;
     text-align: center;
-    background-image:url("../img/pass.png");
+    background-image: url('../img/pass.png');
     background-repeat: no-repeat;
 }
 
@@ -68,6 +78,8 @@ section form{
     margin-left:1%;
     border:2px solid black;
     box-shadow: 8px 4px 8px solid black;
+    background-color:steelblue;
+    color:white;
 }
 #btne:hover{
     background-color: #3f9039;
@@ -77,8 +89,44 @@ section form{
     background-color: #343611;
 }
 footer{
+    margin:0 auto;
     white-space: pre-wrap;
+    width: 50%;
+    max-width: 98%;
+    min-width: 50%;
     font-size: 11px;
     color:white;
     text-align: center;
+    background-color:deepskyblue;
+    box-shadow:3px 4px 10px black;
+    border-radius:4px;
+}
+.olvido{
+    font-size:14px;
+    text-align: center;
+    color:white;
+    cursor:pointer;
+}
+.olvido:hover{
+    font-size:18px;
+    transition:0.2s linear all;
+}
+.olvido:active{
+    transition:0.4s linear all;
+    color:green;
+    background-color:black;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+footer:hover{
+    cursor:pointer;
+    /*text-transform: uppercase;*/ /*convierte el texto en mayusculas*/
+    color:white;
+}
+footer::selection{ /*selector que permite generar un marcatexto*/
+    background: red;
+    color:pink;
+
 }

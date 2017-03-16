@@ -19,7 +19,8 @@
 $usuario = $_POST['v_user'];
 $contrasenia = $_POST['v_password'];
 
-if( $usuario=='angelslv' && $contrasenia=='admin')
+echo "<div class='panel_superior'>";
+if($usuario=='angelslv' && $contrasenia=='admin')
 {
     echo "Bienvenido Dr. Ángel Vásquez";
     echo "<a href='index.html'>Salir</a>";
@@ -28,6 +29,7 @@ else{
     echo "Usuario incorrecto";
     header('location:index.html');
 }
+echo "</div>";
 ?>
 </body>
 </html>

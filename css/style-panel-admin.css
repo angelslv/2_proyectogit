@@ -1,0 +1,11 @@
+.panel_superior{
+    width:100%;
+    min-width: 50%;
+    height: 100px;
+    background-color:steelblue;
+    font-family: "Arial Narrow";
+    font-size: 10px;
+    color:white;
+    text-align: right;
+    white-space:pre-line;
+}

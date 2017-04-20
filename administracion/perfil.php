@@ -265,17 +265,13 @@
 												<div class="space-6"></div>
 
 												<div class="profile-social-links align-center">
-													<a href="#" class="tooltip-info" title="" data-original-title="Visit my Facebook">
+													<a href="#" class="tooltip-info" title="" data-original-title="Visita mi perfil de facebook">
 														<i class="middle ace-icon fa fa-facebook-square fa-2x blue"></i>
 													</a>
 
-													<a href="#" class="tooltip-info" title="" data-original-title="Visit my Twitter">
+													<a href="#" class="tooltip-info" title="" data-original-title="Visita mi perfil de twitter">
 														<i class="middle ace-icon fa fa-twitter-square fa-2x light-blue"></i>
-													</a>
-
-													<a href="#" class="tooltip-error" title="" data-original-title="Visit my Pinterest">
-														<i class="middle ace-icon fa fa-pinterest-square fa-2x red"></i>
-													</a>
+													</a>					
 												</div>
 											</div>
 
@@ -1545,7 +1541,7 @@
 				
 				//seleecciona ciudades
 				var countries = [];
-			    $.each({ "CA": "Canada", "IN": "India", "NL": "Netherlands", "TR": "Turkey", "US": "United States"}, function(k, v) {
+			    $.each({ "CA": "Canada", "MX": "México", "NL": "Holanda", "TR": "Turquía", "US": "Estados Unidos"}, function(k, v) {
 			        countries.push({id: k, text: v});
 			    });
 			
@@ -1555,7 +1551,7 @@
 					cities["CA"].push({id: v, text: v});
 				});
 				cities["MX"] = [];
-				$.each(["Oaxaca", "CHIAPAS", "VERACRUZ"] , function(k, v){
+				$.each(["Oaxaca", "Chiapas", "Veracruz", "Monterrey", "Guerrero", "Morelia", "Guanajuato", "Tabasco", "Yucatán"] , function(k, v){
 					cities["MX"].push({id: v, text: v});
 				});
 				cities["NL"] = [];
@@ -1597,7 +1593,7 @@
 						
 						//so we remove it altogether and create a new element
 						var city = $('#city').removeAttr('id').get(0);
-						$(city).clone().attr('id', 'city').text('Select City').editable({
+						$(city).clone().attr('id', 'city').text('Selecciona tu ciudad').editable({
 							type: 'select2',
 							value : null,
 							//onblur:'ignore',
@@ -1663,15 +1659,15 @@
 					},
 					success: function(response, newValue) {
 						if(parseInt(newValue) == 1)
-							$(this).html(newValue + " hour ago");
-						else $(this).html(newValue + " hours ago");
+							$(this).html(newValue + " horas");
+						else $(this).html(newValue + " horas");
 					}
 				});
 			
 				$('#about').editable({
-					mode: 'inline',
+					mode: 'en linea',
 			        type: 'wysiwyg',
-					name : 'about',
+					name : 'Acerca de',
 			
 					wysiwyg : {
 						//css : {'max-width':'300px'}

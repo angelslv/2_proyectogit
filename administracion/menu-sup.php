@@ -13,7 +13,7 @@
 				</button>
 
 				<div class="navbar-header pull-left">
-					<a href="index.php" class="navbar-brand">
+					<a href="panel-admin.php" class="navbar-brand">
 						<small>
 							<i class="fa "></i>
 							Panel de Administración
@@ -310,7 +310,7 @@
 								<li class="divider"></li>
 
 								<li>
-									<a href="../index.html">
+									<a href="index.html">
 										<i class="ace-icon fa fa-power-off"></i>
 										Cerrar Sesión
 									</a>

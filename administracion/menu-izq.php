@@ -180,7 +180,7 @@
 					<li class="">
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-pencil-square-o"></i>
-							<span class="menu-text"> Elemento 3 </span>
+							<span class="menu-text">Envía Mensajes</span>
 
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
@@ -189,31 +189,15 @@
 
 						<ul class="submenu">
 							<li class="">
-								<a href="#">
+								<a href="mensajes.php">
 									<i class="menu-icon fa fa-caret-right"></i>
-									1
+									Revisar inbox
 								</a>
 
 								<b class="arrow"></b>
 							</li>
 
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									2
-								</a>
-
-								<b class="arrow"></b>
-							</li>
-
-							<li class="">
-								<a href="#">
-									<i class="menu-icon fa fa-caret-right"></i>
-									3
-								</a>
-
-								<b class="arrow"></b>
-							</li>
+							
 
 						</ul>
 					</li>

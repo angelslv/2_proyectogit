@@ -1,3 +1,6 @@
+.formato-texto{
+    font-family: "Arial Narrow";
+}
 .salto_linea{
     white-space: pre-line;
 }

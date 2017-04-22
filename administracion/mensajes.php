@@ -135,79 +135,14 @@ include('menu-izq.php');
 					</div>
 
 					<div class="page-content">
-						<div class="ace-settings-container" id="ace-settings-container">
-							<div class="btn btn-app btn-xs btn-warning ace-settings-btn" id="ace-settings-btn">
-								<i class="ace-icon fa fa-cog bigger-130"></i>
-							</div>
-
-							<div class="ace-settings-box clearfix" id="ace-settings-box">
-								<div class="pull-left width-50">
-									<div class="ace-settings-item">
-										<div class="pull-left">
-											<select id="skin-colorpicker" class="hide">
-												<option data-skin="no-skin" value="#438EB9">#438EB9</option>
-												<option data-skin="skin-1" value="#222A2D">#222A2D</option>
-												<option data-skin="skin-2" value="#C6487E">#C6487E</option>
-												<option data-skin="skin-3" value="#D0D0D0">#D0D0D0</option>
-											</select>
-										</div>
-										<span>&nbsp; Choose Skin</span>
-									</div>
-
-									<div class="ace-settings-item">
-										<input type="checkbox" class="ace ace-checkbox-2 ace-save-state" id="ace-settings-navbar" autocomplete="off" />
-										<label class="lbl" for="ace-settings-navbar"> Fixed Navbar</label>
-									</div>
-
-									<div class="ace-settings-item">
-										<input type="checkbox" class="ace ace-checkbox-2 ace-save-state" id="ace-settings-sidebar" autocomplete="off" />
-										<label class="lbl" for="ace-settings-sidebar"> Fixed Sidebar</label>
-									</div>
-
-									<div class="ace-settings-item">
-										<input type="checkbox" class="ace ace-checkbox-2 ace-save-state" id="ace-settings-breadcrumbs" autocomplete="off" />
-										<label class="lbl" for="ace-settings-breadcrumbs"> Fixed Breadcrumbs</label>
-									</div>
-
-									<div class="ace-settings-item">
-										<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-rtl" autocomplete="off" />
-										<label class="lbl" for="ace-settings-rtl"> Right To Left (rtl)</label>
-									</div>
-
-									<div class="ace-settings-item">
-										<input type="checkbox" class="ace ace-checkbox-2 ace-save-state" id="ace-settings-add-container" autocomplete="off" />
-										<label class="lbl" for="ace-settings-add-container">
-											Inside
-											<b>.container</b>
-										</label>
-									</div>
-								</div><!-- /.pull-left -->
-
-								<div class="pull-left width-50">
-									<div class="ace-settings-item">
-										<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-hover" autocomplete="off" />
-										<label class="lbl" for="ace-settings-hover"> Submenu on Hover</label>
-									</div>
-
-									<div class="ace-settings-item">
-										<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-compact" autocomplete="off" />
-										<label class="lbl" for="ace-settings-compact"> Compact Sidebar</label>
-									</div>
-
-									<div class="ace-settings-item">
-										<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-highlight" autocomplete="off" />
-										<label class="lbl" for="ace-settings-highlight"> Alt. Active Item</label>
-									</div>
-								</div><!-- /.pull-left -->
-							</div><!-- /.ace-settings-box -->
-						</div><!-- /.ace-settings-container -->
+						
 
 						<div class="page-header">
 							<h1>
-								Recibidos
+								Compartiendo información
 								<small>
 									<i class="ace-icon fa fa-angle-double-right"></i>
-									Mailbox with some customizations as described in docs
+									Envío y Recepción de Mensajes
 								</small>
 							</h1>
 						</div><!-- /.page-header -->
@@ -438,7 +373,7 @@ include('menu-izq.php');
 																<div class="messagebar-item-right">
 																	<div class="inline position-relative">
 																		<a href="#" data-toggle="dropdown" class="dropdown-toggle">
-																			Sort &nbsp;
+																			ordenar &nbsp;
 																			<i class="ace-icon fa fa-caret-down bigger-125"></i>
 																		</a>
 
@@ -631,6 +566,8 @@ include('menu-izq.php');
 
 														<div class="message-list-container">
 															<div class="message-list" id="message-list">
+																
+
 																<div class="message-item message-unread">
 																	<label class="inline">
 																		<input type="checkbox" class="ace" />
@@ -638,29 +575,12 @@ include('menu-izq.php');
 																	</label>
 
 																	<i class="message-star ace-icon fa fa-star orange2"></i>
-																	<span class="sender" title="Alex John Red Smith">Miriam Riquelme </span>
-																	<span class="time">11:33 pm</span>
 
-																	<span class="summary">
-																		<span class="text">
-																			Solicitud de datos importantes
-																		</span>
-																	</span>
-																</div>
-
-																<div class="message-item message-unread">
-																	<label class="inline">
-																		<input type="checkbox" class="ace" />
-																		<span class="lbl"></span>
-																	</label>
-
-																	<i class="message-star ace-icon fa fa-star-o light-grey"></i>
-
-																	<span class="sender" title="John Doe">
-																		John Doe
+																	<span class="sender" title="Ángel Vásquez">
+																		Ángel vásquez
 																		<span class="light-grey">(4)</span>
 																	</span>
-																	<span class="time">7:15 pm</span>
+																	<span class="time">10:35 am</span>
 
 																	<span class="attachment">
 																		<i class="ace-icon fa fa-paperclip"></i>
@@ -669,7 +589,7 @@ include('menu-izq.php');
 																	<span class="summary">
 																		<span class="badge badge-pink mail-tag"></span>
 																		<span class="text">
-																			Clik to open this message right here
+																			Mensaje de prueba para el seminario
 																		</span>
 																	</span>
 																</div>
@@ -681,7 +601,7 @@ include('menu-izq.php');
 																	</label>
 
 																	<i class="message-star ace-icon fa fa-star-o light-grey"></i>
-																	<span class="sender" title="Philip Markov">Philip Markov </span>
+																	<span class="sender" title="Francisco Gónzalez">Francisco Gónzalez </span>
 																	<span class="time">10:15 am</span>
 
 																	<span class="attachment">
@@ -693,7 +613,7 @@ include('menu-izq.php');
 																			<i class="ace-icon fa fa-reply light-grey"></i>
 																		</span>
 																		<span class="text">
-																			Photo booth beard raw denim letterpress vegan
+																			Archivos para presentar en el seminario :)
 																		</span>
 																	</span>
 																</div>
@@ -705,12 +625,12 @@ include('menu-izq.php');
 																	</label>
 
 																	<i class="message-star ace-icon fa fa-star orange2"></i>
-																	<span class="sender" title="Sabrina">Sabrina </span>
-																	<span class="time">Yesterday</span>
+																	<span class="sender" title="Guadalupe Mendez">Guadalupe Mendez </span>
+																	<span class="time">Abril 25</span>
 
 																	<span class="summary">
 																		<span class="text">
-																			Nullam quis risus eget urna mollis ornare
+																			Favor de confirmar la recepción del correo
 																		</span>
 																	</span>
 																</div>
@@ -722,8 +642,8 @@ include('menu-izq.php');
 																	</label>
 
 																	<i class="message-star ace-icon fa fa-star-o light-grey"></i>
-																	<span class="sender" title="Philip Markov">Philip Markov </span>
-																	<span class="time">Yesterday</span>
+																	<span class="sender" title="Mateo Hernández">Mateo Hernández</span>
+																	<span class="time">Abril 24</span>
 
 																	<span class="attachment">
 																		<i class="ace-icon fa fa-paperclip"></i>
@@ -732,7 +652,7 @@ include('menu-izq.php');
 																	<span class="summary">
 																		<span class="badge badge-success mail-tag"></span>
 																		<span class="text">
-																			Vestibulum id ligula porta felis euismod
+																			La nómina de la empresa está lista
 																		</span>
 																	</span>
 																</div>
@@ -744,12 +664,12 @@ include('menu-izq.php');
 																	</label>
 
 																	<i class="message-star ace-icon fa fa-star-o light-grey"></i>
-																	<span class="sender" title="Doctor Gomenz">Doctor Gomenz </span>
-																	<span class="time">April 5</span>
+																	<span class="sender" title="Julio Chávez">Julio Chávez </span>
+																	<span class="time">Abril 22</span>
 
 																	<span class="summary">
 																		<span class="text">
-																			Vim te vivendo convenire, summo fuisset
+																			Los datos para el CRM están cifrados
 																		</span>
 																	</span>
 																</div>
@@ -761,15 +681,15 @@ include('menu-izq.php');
 																	</label>
 
 																	<i class="message-star ace-icon fa fa-star-o light-grey"></i>
-																	<span class="sender" title="Robin Hood">Robin Hood </span>
-																	<span class="time">April 4</span>
+																	<span class="sender" title="Elizabeth Pérez">Elizabeth Pérez </span>
+																	<span class="time">Abril 14</span>
 
 																	<span class="summary">
 																		<span class="message-flags">
 																			<i class="ace-icon fa fa-reply light-grey"></i>
 																		</span>
 																		<span class="text">
-																			No eos veniam equidem mentitum, his porro
+																			La presentación está terminada podemos continuar con el evento
 																		</span>
 																	</span>
 																</div>
@@ -781,13 +701,13 @@ include('menu-izq.php');
 																	</label>
 
 																	<i class="message-star ace-icon fa fa-star-o light-grey"></i>
-																	<span class="sender" title="Google Inc">Google Inc </span>
+																	<span class="sender" title="Google Inc">Google - Gmail</span>
 																	<span class="time">Abril 3</span>
 
 																	<span class="summary">
 																		<span class="badge badge-grey mail-tag"></span>
 																		<span class="text">
-																			Convallis facilisis euismod urna sodales
+																			Actualizaste tu contraseña, si usted no fue favor de contactar
 																		</span>
 																	</span>
 																</div>
@@ -799,7 +719,7 @@ include('menu-izq.php');
 																	</label>
 
 																	<i class="message-star ace-icon fa fa-star-o light-grey"></i>
-																	<span class="sender" title="Shrek">Alicia Benitez </span>
+																	<span class="sender" title="Shrek">Alicia Villareal </span>
 																	<span class="time">Marzo 28</span>
 
 																	<span class="attachment">
@@ -839,10 +759,10 @@ include('menu-izq.php');
 														</div>
 
 														<div class="message-footer clearfix">
-															<div class="pull-left"> 10 mensajes </div>
+															<div class="pull-left"> 9 mensajes </div>
 
 															<div class="pull-right">
-																<div class="inline middle"> página 1 of 16 </div>
+																<div class="inline middle"> página 1 of 1 </div>
 
 																&nbsp; &nbsp;
 																<ul class="pagination middle">
@@ -880,10 +800,10 @@ include('menu-izq.php');
 														</div>
 
 														<div class="hide message-footer message-footer-style2 clearfix">
-															<div class="pull-left"> simpler footer </div>
+															<div class="pull-left"> Mensaje importante </div>
 
 															<div class="pull-right">
-																<div class="inline middle"> message 1 of 151 </div>
+																<div class="inline middle"> Mensaje 1 de 9 </div>
 
 																&nbsp; &nbsp;
 																<ul class="pagination middle">
@@ -911,11 +831,11 @@ include('menu-izq.php');
 								<form id="id-message-form" class="hide form-horizontal message-form col-xs-12">
 									<div>
 										<div class="form-group">
-											<label class="col-sm-3 control-label no-padding-right" for="form-field-recipient">Recipient:</label>
+											<label class="col-sm-3 control-label no-padding-right" for="form-field-recipient">De:</label>
 
 											<div class="col-sm-9">
 												<span class="input-icon">
-													<input type="email" name="recipient" id="form-field-recipient" data-value="alex@doe.com" value="alex@doe.com" placeholder="Recipient(s)" />
+													<input type="email" name="recipient" id="form-field-recipient" data-value="angel.vasquez@outlook.com" value="angel.vasquez@outlook.com" placeholder="angel.vasquez" />
 													<i class="ace-icon fa fa-user"></i>
 												</span>
 											</div>
@@ -924,11 +844,11 @@ include('menu-izq.php');
 										<div class="hr hr-18 dotted"></div>
 
 										<div class="form-group">
-											<label class="col-sm-3 control-label no-padding-right" for="form-field-subject">Subject:</label>
+											<label class="col-sm-3 control-label no-padding-right" for="form-field-subject">Asunto:</label>
 
 											<div class="col-sm-6 col-xs-12">
 												<div class="input-icon block col-xs-12 no-padding">
-													<input maxlength="100" type="text" class="col-xs-12" name="subject" id="form-field-subject" placeholder="Subject" />
+													<input maxlength="100" type="text" class="col-xs-12" name="subject" id="form-field-subject" placeholder="Asunto" />
 													<i class="ace-icon fa fa-comment-o"></i>
 												</div>
 											</div>
@@ -939,7 +859,7 @@ include('menu-izq.php');
 										<div class="form-group">
 											<label class="col-sm-3 control-label no-padding-right">
 												<span class="inline space-24 hidden-480"></span>
-												Message:
+												Mensaje:
 											</label>
 
 											<div class="col-sm-9">
@@ -950,7 +870,7 @@ include('menu-izq.php');
 										<div class="hr hr-18 dotted"></div>
 
 										<div class="form-group no-margin-bottom">
-											<label class="col-sm-3 control-label no-padding-right">Attachments:</label>
+											<label class="col-sm-3 control-label no-padding-right">Adjunto:</label>
 
 											<div class="col-sm-9">
 												<div id="form-attachments">
@@ -962,7 +882,7 @@ include('menu-izq.php');
 										<div class="align-right">
 											<button id="id-add-attachment" type="button" class="btn btn-sm btn-danger">
 												<i class="ace-icon fa fa-paperclip bigger-140"></i>
-												Add Attachment
+												Agregar archivo adjunto
 											</button>
 										</div>
 
@@ -973,20 +893,20 @@ include('menu-izq.php');
 								<div class="hide message-content" id="id-message-content">
 									<div class="message-header clearfix">
 										<div class="pull-left">
-											<span class="blue bigger-125"> Clik to open this message </span>
+											<span class="blue bigger-125"> Mensaje de prueba para el seminario </span>
 
 											<div class="space-4"></div>
 
 											<i class="ace-icon fa fa-star orange2"></i>
 
 											&nbsp;
-											<img class="middle" alt="John's Avatar" src="images/avatars/avatar.png" width="32" />
+											<img class="middle" alt="Ángel Vásquez" src="images/avatars/avatar.png" width="32" />
 											&nbsp;
-											<a href="#" class="sender">John Doe</a>
+											<a href="#" class="sender">Ángel Vásquez</a>
 
 											&nbsp;
 											<i class="ace-icon fa fa-clock-o bigger-110 orange middle"></i>
-											<span class="time grey">Today, 7:15 pm</span>
+											<span class="time grey">Hoy, 10:35 am</span>
 										</div>
 
 										<div class="pull-right action-buttons">
@@ -1007,29 +927,13 @@ include('menu-izq.php');
 									<div class="hr hr-double"></div>
 
 									<div class="message-body">
-										<p>
-											Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+										<p align="justify">
+											Buen día, el motivo de este mensaje se debe a la realización de pruebas que hay el día de hoy en nuestro sistema de mensajes.
+											Se agradece de antemano su presencia, y por motivos de seguridad este mensaje desaparecerá después de cerrar. ;)
+											<br />Como podrás observar, este mensaje es acompañado por 2 archivos adjuntos los cuales podrás descargar o eliminar.
 										</p>
 
-										<p>
-											Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-										</p>
-
-										<p>
-											Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-										</p>
-
-										<p>
-											Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-										</p>
-
-										<p>
-											Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-										</p>
-
-										<p>
-											Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-										</p>
+										
 									</div>
 
 									<div class="hr hr-double"></div>
@@ -1099,10 +1003,12 @@ include('menu-izq.php');
 											<div class="vspace-4-sm"></div>
 
 											<div>
+												<!--
 												<img width="36" alt="image 4" src="images/gallery/thumb-4.jpg" />
 												<img width="36" alt="image 3" src="images/gallery/thumb-3.jpg" />
 												<img width="36" alt="image 2" src="images/gallery/thumb-2.jpg" />
 												<img width="36" alt="image 1" src="images/gallery/thumb-1.jpg" />
+												-->
 											</div>
 										</div>
 									</div>

@@ -49,8 +49,8 @@
 
 <body class="no-skin">
     <?php
-        $usuario = $_POST['v_user'];
-        $contrasenia = $_POST['v_password'];
+        @$usuario = $_POST['v_user'];
+        @$contrasenia = $_POST['v_password'];
     ?>
 
 	<!-- -Inicia contenedor o div azul superior -->

@@ -2,7 +2,7 @@
 				<div class="footer-inner">
 					<div class="footer-content">
 						<span class="bigger-120">
-							<span class="blue bolder">Práctica #2. Uso de Git & Github en Proyectos Web Profesionales - Año 2017.</span>
+							<span class="blue bolder">Uso de Git & Github en Proyectos Web Profesionales - Año 2017.</span>
 						</span>
 
 						&nbsp; &nbsp;

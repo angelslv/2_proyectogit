@@ -198,7 +198,7 @@
 										<div class="col-xs-12 col-sm-3 center">
 											<div>
 												<span class="profile-picture">
-													<img id="avatar" class="editable img-responsive" alt="Angel Vasquez Avatar" src="images/angelslv.png" />
+													<img id="avatar" class="editable img-responsive" alt="Angel Vasquez Avatar" src="images/angelslv2.png" />
 												</span>
 
 												<div class="space-4"></div>

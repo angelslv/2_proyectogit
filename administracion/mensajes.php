@@ -3,7 +3,7 @@
 	<head>
 		<title>Panel de Administración - Mensajes entre usuarios</title>
 		<meta charset="UTF-8" />
-	    <meta name="description" content="Práctica 2 - TIII" />
+	    <meta name="description" content="Proyecto - TIII" />
 	    <meta name="keywords" content="HTML5, CSS3, GIT, GITHUB, PHP, MARIADB " />
 	    <meta name="author" content="Dr. Ángel Vásquez" />
 
@@ -115,7 +115,7 @@ include('menu-izq.php');
 						<ul class="breadcrumb">
 							<li>
 								<i class="ace-icon fa fa-home home-icon"></i>
-								<a href="#">Inicio</a>
+								<a href="panel-admin.php">Inicio</a>
 							</li>
 
 							<li>

@@ -150,7 +150,7 @@
 						<a href="#" class="dropdown-toggle">
 							<i class="menu-icon fa fa-list"></i>
 							<span class="menu-text"> Elemento 2 </span>
-<span class="badge badge-primary">2</span>
+<span class="badge badge-primary">23</span>
 							<b class="arrow fa fa-angle-down"></b>
 						</a>
 
@@ -158,7 +158,7 @@
 
 						<ul class="submenu">
 							<li class="">
-								<a href="#">
+								<a href="inventario.php">
 									<i class="menu-icon fa fa-caret-right"></i>
 									1
 								</a>

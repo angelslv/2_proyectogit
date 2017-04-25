@@ -324,7 +324,7 @@
 								</li>
 
 								<li class="dropdown-footer">
-									<a href="inbox.html">
+									<a href="mensajes.php">
 										Ver todos
 										<i class="ace-icon fa fa-arrow-right"></i>
 									</a>
